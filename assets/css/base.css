@@ -21,3 +21,22 @@
     box-sizing: border-box;
     font-family: var(--font-1);
 }
+/* Xem thêm */
+
+.inner-more .inner-more-link {
+    text-decoration: none;
+    display: flex;
+    align-items:center;
+}
+.inner-more .inner-more-text{
+    color: var(--color-red);
+    font-weight: 600;
+    font-size: 20px;
+    font-family: var(--font-1);
+    line-height: 30px;
+    margin-right: 8px;
+}
+.inner-more i {
+    color: var(--color-red);
+}
+/* End Xem thêm */
