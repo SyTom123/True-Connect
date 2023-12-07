@@ -367,6 +367,7 @@
 /* Section-5 */
 .section-5 {
     padding-top: 120px;
+    background-color: #fff;
 }
 .section-5 .inner-top {
     display: flex;
@@ -555,6 +556,7 @@
 }
 .section-7 .inner-box i {
     margin-right: 8px;
+    font-size: 20px;
 }
 .section-7 .inner-box span {
     font-family: var(--font-1);
@@ -592,3 +594,156 @@
     margin-top: 20px;
 }
 /* End Section-7 */
+/* footer */
+.footer {
+    background-color: #fff;
+    margin-top: 30px;
+    padding: 62px 0 34px;
+}
+.footer .inner-image {
+    margin-bottom: 32px;
+}
+.footer .inner-image img {
+    height: 60px;
+}
+
+.footer .inner-left .inner-title {
+    font-family: var(--font-1);
+    text-transform: uppercase;
+    font-size: 20px;
+    line-height: 20px;
+    color: #000;
+    margin-bottom: 15px;
+}
+.footer .inner-left .inner-box {
+    margin-bottom: 8px;
+}
+.footer .inner-left .inner-box i{
+    color: var(--color-green);
+    font-size: 20px;
+    margin-right: 8px;
+}
+.footer .inner-left .inner-box span{
+    font-family: var(--font-1);
+    line-height: 28px;
+    color: var(--color-text-1);
+    font-size: 14px;
+}
+.footer .inner-left .inner-hotline{
+    font-size: 14px;
+    line-height: 26px;
+    margin: 7px 0 8px;
+    color: var(--color-text-1);
+}
+.footer .inner-left .inner-hotline .inner-hotline-text{
+    color: var(--color-green);
+    font-size: 14px;
+    line-height: 26px;
+    font-weight: 600;
+    font-family: var(--font-1);
+}
+.footer .inner-left .inner-text{
+    font-size: 14px;
+    line-height: 26px;
+    color: var(--color-text-1);
+    margin-bottom: 8px;
+}
+.footer .inner-left .coppy-right{
+    font-size: 13px;
+    line-height: 24px;
+    color: var(--color-text-1);
+    margin-top: 18px;
+}
+
+.footer .inner-right .inner-top {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.footer .inner-right .inner-top .inner-box{
+    width: 50%;
+}
+.footer .inner-right .inner-top .inner-box .inner-title {
+    font-family: var(--font-1);
+    font-weight: 600;
+    font-size: 13px;
+    color: var(--color-text-1);
+    line-height: 24px;
+    margin-bottom: 16px;
+}
+.footer .inner-right .inner-top .inner-box .inner-desc a{
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    font-family: var(--font-1);
+    color: var(--color-text-1);
+    line-height: 24px;
+    margin-bottom: 10px;
+}
+.footer .inner-right .inner-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 80px;
+}
+.footer .inner-right .inner-bottom .inner-socials {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 10px;
+}
+.footer .inner-right .inner-bottom .inner-socials .inner-wrap {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-size: 30px;
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+    margin-right: 9px;
+}
+.footer .inner-right .inner-bottom .inner-socials .inner-tiktok {
+    background-color: #010201;
+}
+.footer .inner-right .inner-bottom .inner-socials .inner-facebook {
+    background-color: #4676ED;
+}
+.footer .inner-right .inner-bottom .inner-socials .inner-youtube {
+    background-color: #DA0000;
+}
+.footer .inner-right .inner-bottom .inner-form {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex:1;
+}
+
+.footer .inner-right .inner-bottom .inner-form input{
+    height: 48px;
+    border:none;
+    background: #F7F8F9;
+    border-radius: 8px;
+    font-size: 14px;
+    line-height: 26px;
+    font-family: var(--font-1);
+    color: var(--color-text-1);
+    margin-right: 8px;
+}
+
+.footer .inner-right .inner-bottom .inner-form button {
+    width: 48px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--color-green);
+    color: #fff;
+    border:none;
+    border-radius: 8px;
+
+}
+/* End footer */
