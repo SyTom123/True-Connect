@@ -47,3 +47,23 @@
 }
 
 /* End Xem thêm */
+/* box-head */
+.box-header {
+    font-family: var(--font-2);
+    font-size: 40px;
+    line-height: 50px;
+    font-weight: 700;
+    color:var(--color-green);
+    position: relative;
+}
+.box-header::before {
+    content: "";
+    position: absolute;
+    height: 4px;
+    width: 136px;
+    background-color:var(--color-red);
+    left: 0;
+    bottom: -15px;
+
+}
+/* End box-head */
