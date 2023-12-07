@@ -40,4 +40,10 @@
 .inner-more i {
     color: var(--color-red);
 }
+@media (max-width: 575.98px){ 
+    .inner-more .inner-more-text{
+        font-size: 14px;
+    }
+}
+
 /* End Xem thêm */
