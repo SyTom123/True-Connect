@@ -530,3 +530,65 @@
     height: 200px;
 }
 /* End Section-6 */
+/* Section-7 */
+.section-7 {
+    background: url("../images/Cores/image-17.png");
+    height: 624px;
+    padding: 120px;
+}
+.section-7 .inner-title{
+    font-weight: 700;
+    font-size: 48px;
+    font-family: var(--font-2);
+    line-height: 61px;
+    color: var(--color-green);
+    margin-bottom: 64px;
+}
+.section-7 .inner-box{
+    color: #fff;
+    width: 395px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 16px;
+
+}
+.section-7 .inner-box i {
+    margin-right: 8px;
+}
+.section-7 .inner-box span {
+    font-family: var(--font-1);
+    line-height: 28px;
+    font-size: 16px;
+}
+.section-7 .inner-right {
+    display: flex;
+    justify-content: flex-end;
+}
+.section-7 .inner-right .inner-form {
+    width: 466px;
+}
+.section-7 .inner-right .inner-form input {
+    height: 56px;
+    border-radius: 8px;
+    color: #919EAB;
+    font-size: 14px;
+    font-family: var(--font-1);
+    line-height: 26px;
+    background: #20272F;
+    border: none;
+    margin-bottom: 20px;
+}
+.section-7 .inner-right .inner-form button {
+    font-size: 15px;
+    line-height: 26px;
+    font-weight: 600;
+    font-family: var(--font-1);
+    color: #fff;
+    background-color: var(--color-green);
+    padding: 11px 22px;
+    border-radius: 8px;
+    border: none;
+    margin-top: 20px;
+}
+/* End Section-7 */
