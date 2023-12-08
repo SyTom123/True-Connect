@@ -472,14 +472,17 @@
     height: 100%;
     background-color: #DFDFDF;
     position: absolute;
-    left: -36px;
+    left: -42px;
     top:0px;
+}
+.section-4 .inner-bottom .inner-tabs .tab6::before {
+    height: 50%;
 }
 .section-4 .inner-bottom .inner-tabs .inner-tabs-number{
     transform: rotate(-90deg);
     position: absolute;
     left:-20px;
-    bottom: -48px;
+    bottom: -6px;
 }
 .section-4 .inner-bottom .inner-tabs .inner-tabs-number .inner-tabs-current,
 .section-4 .inner-bottom .inner-tabs .inner-tabs-number .inner-tabs-separate {
@@ -526,6 +529,10 @@
     }
     .section-4 .inner-bottom .inner-tabs label::before {
         left: -44px;
+    }
+    .section-4 .inner-bottom .inner-tabs .inner-tabs-number{
+        left:-23px;
+        bottom: -26px;
     }
     .section-4 .inner-bottom .inner-tabs .inner-tabs-number .inner-tabs-current,
     .section-4 .inner-bottom .inner-tabs .inner-tabs-number .inner-tabs-separate {
@@ -1356,6 +1363,7 @@
 .section-10 .inner-mytabs {
     margin-top: 48px;
     margin-bottom: 54px;
+    padding-left: 40px;
 }
 .section-10 .inner-mytabs .inner-tabs {
     position: relative;
@@ -1381,7 +1389,7 @@
     height: 100%;
     background-color: #DFDFDF;
     position: absolute;
-    left: -36px;
+    left: -42px;
     top:0px;
 }
 .section-10 .inner-mytabs .inner-tabs .tab3::before {
@@ -1390,7 +1398,7 @@
 .section-10 .inner-mytabs .inner-tabs .inner-tabs-number{
     transform: rotate(-90deg);
     position: absolute;
-    left:-64px;
+    left:-70px;
     bottom: 4px;
 }
 .section-10 .inner-mytabs .inner-tabs .inner-tabs-number .inner-tabs-current,
@@ -1423,3 +1431,119 @@
     background-color:#FF5722;
 }
 /* End section-10 */
+.section-11 {
+    margin-top: 80px;
+}
+.section-11 .inner-title {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+.section-11 .inner-box-1 {
+    margin-top: 58px;
+}
+.section-11 .inner-box {
+    display: flex;
+    align-items: center;
+}
+.section-11 .inner-box img{
+    width: 51px;
+}
+.section-11 .inner-box span {
+    font-family: var(--font-2);
+    font-weight: 600;
+    line-height: 41px;
+    font-size: 32px;
+    color:#FF0054;
+    margin-left: 25px;
+    text-transform: uppercase;
+}
+.section-11 .inner-title .inner-right .inner-image img {
+    max-width: 358px;
+    aspect-ratio: 358 / 269;
+    object-fit: cover;
+}
+.section-11 .inner-desc {
+    color: var(--color-text-1);
+    line-height: 30px;
+    font-family: var(--font-1);
+    font-size: 16px;
+    text-align: justify;
+    margin-bottom: 20px;
+}
+.section-11 .inner-mytabs {
+    margin-top: 48px;
+    margin-bottom: 54px;
+    padding-left: 40px;
+}
+.section-11 .inner-mytabs .inner-tabs {
+    position: relative;
+}
+.section-11 .inner-mytabs .inner-tabs input {
+    display: none;
+}
+.section-11 .inner-mytabs .inner-tabs label {
+    display: block;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #222831;
+    padding: 25px ;
+    margin-bottom: 0;
+    position: relative;
+    cursor: pointer;
+}
+.section-11 .inner-mytabs .inner-tabs label::before {
+    content: "";
+    display: block;
+    width: 4px;
+    height: 100%;
+    background-color: #DFDFDF;
+    position: absolute;
+    left: -42px;
+    top:0px;
+}
+.section-11 .inner-mytabs .inner-tabs .tab6::before {
+    height: 50%;
+}
+.section-11 .inner-mytabs .inner-tabs .inner-tabs-number{
+    transform: rotate(-90deg);
+    position: absolute;
+    left: -70px;
+    bottom: -10px;
+}
+.section-11 .inner-mytabs .inner-tabs .inner-tabs-number .inner-tabs-current,
+.section-11 .inner-mytabs .inner-tabs .inner-tabs-number .inner-tabs-separate {
+    color: #10375C;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+}
+.section-11 .inner-mytabs .inner-tabs .inner-tabs-number .inner-tabs-total {
+    color: #9A9A9A;
+    font-size: 16px;
+    line-height: 26px;
+}
+.section-11 .inner-mytabs .inner-tabs input:checked + label::before {
+    background-color: #FF5722;
+}
+.section-11 .inner-mytabs .inner-tabs input:checked + label{
+    background-color:var(--color-green);
+    color: #fff;
+}
+.section-11 .inner-mytabs .inner-tabs label:hover {
+    color: var(--color-green);
+}
+.section-11 .inner-mytabs .inner-tabs label.active {
+    background-color:var(--color-green);
+    color: #fff;
+}
+.section-11 .inner-mytabs .inner-tabs label.active::before {
+    background-color:#FF5722;
+}
+.section-11 .inner-box-2 {
+    margin-top: 80px;
+    margin-bottom: 30px;
+}
+/* End section-11 */
