@@ -1213,7 +1213,7 @@
 }
 /* section-9 */
 .section-9 {
-    padding: 60px 0;
+    padding: 60px 0 82px;
 }
 .section-9 .inner-top {
     margin-top: 44px;
@@ -1315,3 +1315,111 @@
     color: #919EAB;
 }
 /* End section-9 */
+/* section-10 */
+.section-10 .inner-text {
+    display: flex;
+    align-items: flex-start;
+    margin-top: 32px;
+    margin-bottom: 12px;
+}
+.section-10 .inner-text .inner-t {
+    font-family: var(--font-2);
+    font-size: 128px;
+    color: var(--color-text-1);
+    display: inline-block;
+    font-weight: 700;
+    margin-right: 16px;
+    line-height: 105px;
+}
+.section-10 .inner-text .inner-text-right{
+    font-family: var(--font-1);
+    font-size: 16px;
+    line-height: 30px;
+    text-align: justify;
+}
+.section-10 .inner-desc {
+    color: var(--color-text-1);
+    line-height: 30px;
+    font-family: var(--font-1);
+    font-size: 16px;
+    text-align: justify;
+    margin-bottom: 20px;
+}
+.section-10 .inner-wrap {
+    margin-top: 55px;
+}
+.section-10 .inner-wrap .inner-image img{
+    width: 100%;
+    aspect-ratio: 343/261;
+    object-fit: cover;
+}
+.section-10 .inner-mytabs {
+    margin-top: 48px;
+    margin-bottom: 54px;
+}
+.section-10 .inner-mytabs .inner-tabs {
+    position: relative;
+}
+.section-10 .inner-mytabs .inner-tabs input {
+    display: none;
+}
+.section-10 .inner-mytabs .inner-tabs label {
+    display: block;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #222831;
+    padding: 25px ;
+    margin-bottom: 0;
+    position: relative;
+    cursor: pointer;
+}
+.section-10 .inner-mytabs .inner-tabs label::before {
+    content: "";
+    display: block;
+    width: 4px;
+    height: 100%;
+    background-color: #DFDFDF;
+    position: absolute;
+    left: -36px;
+    top:0px;
+}
+.section-10 .inner-mytabs .inner-tabs .tab3::before {
+    height: 50%;
+}
+.section-10 .inner-mytabs .inner-tabs .inner-tabs-number{
+    transform: rotate(-90deg);
+    position: absolute;
+    left:-64px;
+    bottom: 4px;
+}
+.section-10 .inner-mytabs .inner-tabs .inner-tabs-number .inner-tabs-current,
+.section-10 .inner-mytabs .inner-tabs .inner-tabs-number .inner-tabs-separate {
+    color: #10375C;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+}
+.section-10 .inner-mytabs .inner-tabs .inner-tabs-number .inner-tabs-total {
+    color: #9A9A9A;
+    font-size: 16px;
+    line-height: 26px;
+}
+.section-10 .inner-mytabs  .inner-tabs input:checked +label::before {
+    background-color: #FF5722;
+}
+.section-10 .inner-mytabs  .inner-tabs input:checked +label{
+    background-color:var(--color-green);
+    color: #fff;
+}
+.section-10 .inner-mytabs .inner-tabs label:hover {
+    color: var(--color-green);
+}
+.section-10 .inner-mytabs .inner-tabs label.active {
+    background-color:var(--color-green);
+    color: #fff;
+}
+.section-10 .inner-mytabs .inner-tabs label.active::before {
+    background-color:#FF5722;
+}
+/* End section-10 */
