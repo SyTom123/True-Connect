@@ -1,5 +1,5 @@
- @import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lexend:wght@200;300;400;500;600;700;800;900&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-:root {
+ @import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Josefin+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Lexend:wght@200;300;400;500;600;700;800;900&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+ :root {
     /* font */
     --font-1: 'Poppins', sans-serif;
     --font-2: 'Lora', serif;
@@ -7,6 +7,7 @@
     --font-4: 'Libre Baskerville', serif;
     --font-5: 'Barlow', sans-serif;
     --font-6: 'Raleway', sans-serif;
+    --font-7: 'Josefin Sans', sans-serif;;
 
     --color-green: #0DC5AE;
     --color-red: #FF0054;
@@ -58,6 +59,7 @@
     position: relative;
     text-transform: uppercase;
 }
+
 .box-header::before {
     content: "";
     position: absolute;
@@ -118,6 +120,44 @@
 }
 /* End responsive */
 /* End box-head */
+/* box-head-2 */
+.box-header-3 {
+    font-family: var(--font-2);
+    font-size: 40px;
+    line-height: 50px;
+    font-weight: 700;
+    color:var(--color-green);
+    position: relative;
+    text-transform: uppercase;
+}
+.box-header-3::before {
+    content: "";
+    position: absolute;
+    height: 4px;
+    width: 380px;
+    background-color:var(--color-red);
+    left: 0;
+    bottom: -15px;
+}
+/* responsive */
+@media (max-width: 575.98px){
+    .box-header-3 {
+        font-size: 24px;
+        text-align: center;
+        margin: 0 auto;
+        line-height: 30px;
+    }
+    .box-header-3::before {
+        bottom: -10px;
+        width: 136px;
+        left: calc(50% - 68px);
+    }
+}
+/* End responsive */
+/* End box-head-3 */
+.box-header-lowercase {
+    text-transform:none;
+}
 /* slick */
 .slick-dots li button:before {
     font-size: 10px;
