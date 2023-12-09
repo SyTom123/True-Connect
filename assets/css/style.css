@@ -2373,7 +2373,73 @@
     bottom: 1px;
 }
 /* End section-20 */
+/* section-21 */
+.section-21 {
+    padding: 80px 0 52px;
 
+}
+.section-21 .inner-head .inner-faqs {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 20px;
+    font-family: var(--font-1);
+    color: #919EAB;
+    margin-bottom: 16px;
+}
+.section-21 .inner-head .inner-head-title {
+    font-family: var(--font-2);
+    font-size: 40px;
+    line-height: 51px;
+    font-weight: 700;
+    color:var(--color-green);
+    margin-bottom: 60px;
+}
+.section-21 .inner-left .card {
+    border:none;
+    border-bottom: 1px solid #E5E8EB;
+    margin-bottom: 20px;
+}
+.section-21 .inner-left .card .card-header {
+    background: #fff;
+    padding: 0 0 10px;
+    border:none;
+}
+.section-21 .inner-left .card .card-header .card-title{
+    color: var(--color-text-1);
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    font-family: var(--font-5);
+    cursor: pointer;
+    position: relative;
+}
+.section-21 .inner-left .card .card-header .card-title.collapsed i::before{
+    content: "\2b"
+}
+
+.section-21 .inner-left .card .card-header .card-title i{
+    position: absolute;
+    right: 2px;
+    top: 8px;
+}
+.section-21 .inner-left .card .card-body {
+    padding: 0 0 20px;
+    font-size: 14px;
+    line-height: 25px;
+    color:var(--color-text-1);
+    text-align: justify;
+    font-family: var(--font-1);
+
+}
+.section-21 .inner-right{
+    text-align: right;
+}
+.section-21 .inner-right img{
+    width: 466px;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+}
+/* End section-21 */
 
 
 
