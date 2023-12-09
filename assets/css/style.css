@@ -2541,8 +2541,164 @@
     padding: 11px 0;
 }
 /* End section-22 */
-
-
+/* section-23 */
+.section-23 {
+    padding: 126px 0 0;
+}
+.section-23 .inner-wrap {
+    margin-top: 105px;
+}
+.section-23 .inner-wrap .inner-box {
+    padding: 17px 26px 37px;
+    background: #10375C;
+}
+.section-23 .inner-wrap .inner-box .inner-video {
+    margin-bottom: 18px;
+}
+.section-23 .inner-wrap .inner-box .inner-video video{
+    width: 100%;
+    object-fit: 311 /260;
+    object-fit: cover;
+    border-radius: 12px;
+}
+.section-23 .inner-wrap .inner-box .inner-person {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+.section-23 .inner-wrap .inner-box .inner-person .inner-avatar img {
+    width: 56px;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-right: 16px;
+}
+.section-23 .inner-wrap .inner-box .inner-person .inner-info .inner-name {
+    font-family: var(--font-8);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    color: #fff;
+    margin-bottom: 5px;
+}
+.section-23 .inner-wrap .inner-box .inner-person .inner-info .inner-desc {
+    font-family: var(--font-8);
+    font-size: 16px;
+    line-height: 26px;
+    color: #fff;
+}
+/* End section-23 */
+/* section-24 */
+.section-24 {
+    padding: 100px 0 136px;
+}
+.section-24 .inner-wrap{
+    margin-top: 106px;
+}
+.section-24 .inner-wrap .inner-form {
+    background-color: var(--color-green);
+    padding: 32px;
+    border-radius: 10px;
+}
+.section-24 .inner-wrap .inner-form input {
+    color: #252525;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    font-family: var(--font-6);
+    padding: 16px;
+    height: 53px;
+    margin-bottom: 22px;
+    border-radius: 10px;
+}
+.section-24 .inner-wrap .inner-form textarea {
+    color: #252525;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    font-family: var(--font-6);
+    padding: 16px;
+    border-radius: 10px;
+    margin-bottom: 32px;
+}
+.section-24 .inner-wrap .inner-form button {
+    font-size: 16px;
+    line-height: 30px;
+    color:#fff;
+    background-color: var(--color-red);
+    border:none;
+    padding: 13px 24px;
+    border-radius: 5px;
+}
+.section-24 .inner-wrap .inner-right {
+    padding: 37px 30px 32px;
+}
+.section-24 .inner-wrap .inner-right .inner-top .inner-box{
+    display: flex;
+    margin-bottom: 32px;
+}
+.section-24 .inner-wrap .inner-right .inner-top .inner-box .inner-icon{
+    width: 72px;
+    height: 75px;
+    border-radius: 10px;
+    background-color: #F7F7F7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    color: var(--color-red);
+    margin-right: 16px;
+}
+.section-24 .inner-wrap .inner-right .inner-top .inner-box .inner-content .inner-title {
+    font-size: 20px;
+    line-height: 20px;
+    font-weight: 700;
+    color: var(--color-red);
+    margin-bottom: 10px;
+    font-family: var(--font-6);
+}
+.section-24 .inner-wrap .inner-right .inner-top .inner-box .inner-content .inner-desc {
+    font-size: 16px;
+    line-height: 30px;
+    color: #0E1F51;
+}
+.section-24 .inner-wrap .inner-right .inner-bottom {
+    margin-top: 46px;
+}
+.section-24 .inner-wrap .inner-right .inner-bottom .inner-bottom-text {
+    font-family: var(--font-6);
+    color: #0E1F51;
+    text-align: center;
+    line-height: 25px;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 32px;
+}
+.section-24 .inner-wrap .inner-right .inner-bottom .inner-bottom-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.section-24 .inner-wrap .inner-right .inner-bottom  .inner-bottom-box {
+    margin-right: 20px;
+}
+.section-24 .inner-wrap .inner-right .inner-bottom  .inner-bottom-box:last-child {
+    margin-right: 0px;
+}
+.section-24 .inner-wrap .inner-right .inner-bottom  .inner-bottom-box a {
+    display: inline-block;
+    text-decoration: none;
+    width: 62px;
+    height: 64px;
+    background-color: var(--color-red);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    font-size: 24px;
+}
+/* End section-24 */
 
 
 /* End LandingPage */
