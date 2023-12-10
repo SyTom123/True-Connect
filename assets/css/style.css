@@ -182,11 +182,15 @@
     .section-1 .inner-box .inner-desc{
         font-size: 14px;
     }
+    
     .section-1 .inner-search-input{
         margin: 12px 0 20px;
     }
     .section-1 .inner-search {
         margin-top: 34px;
+    }
+    .section-1 .inner-search .inner-search-input {
+        min-width: 100%;
     }
     .section-1 .inner-search .inner-search-input i {
         display: inline-block;
@@ -892,7 +896,7 @@
     align-items: center;
     justify-content: flex-start;
     margin-bottom: 16px;
-
+    flex-wrap: wrap;
 }
 .section-7 .inner-box i {
     margin-right: 8px;
@@ -992,7 +996,7 @@
     margin-bottom: 8px;
     display: flex;
     align-items: center;
-
+    flex-wrap: wrap;
 }
 .footer .inner-left .inner-box i{
     color: var(--color-green);
@@ -1539,7 +1543,7 @@
 @media (max-width: 575.98px){
     .section-10 .inner-text .inner-text-right .inner-text-right-tmobile {
         display: inline-block;
-        margin-right: -4.5px;
+        margin-right: -6.5px;
     }
     .section-10 .inner-text .inner-t {
         display: none;
@@ -1578,6 +1582,7 @@
     .section-10 .inner-mytabs {
         margin-bottom: 22px;
     }
+    
 
 }
 /* End responsive */
@@ -1724,6 +1729,7 @@
     }
     .section-11 .inner-title .inner-left .inner-image-mobile img{
         display: block;
+        width: 100%;
     }
     .section-11 .inner-title .inner-right .inner-image img {
         display: none;
@@ -2096,15 +2102,17 @@
 .section-15 .inner-content .inner-wrap {
     display: flex;
     justify-content: flex-start;
+    /* flex-wrap: wrap; */
+}
+.section-15 .inner-wrap .inner-image {
+    margin-right: 25px;
 }
 .section-15 .inner-wrap .inner-image img {
     width: 83px;
     aspect-ratio: 1/1;
     object-fit: cover;
 }
-.section-15 .row-1 .inner-wrap .inner-box {
-    margin-bottom: 138px;
-}
+
 .section-15 .inner-wrap .inner-box {
     margin-left: 25px;
 }
@@ -2265,7 +2273,7 @@
 /* End section-17 */
 /* section-18 */
 .section-18 {
-    padding: 154px 0 64px;
+    padding: 154px 0 54px;
 }
 .section-18 .inner-wrap{
     margin-top: 26px;
@@ -2337,12 +2345,12 @@
         margin-top: 44px;
     }
     .section-18 .inner-wrap .inner-center-line {
-        left:30px;
+        left:20px;
         top:10px;
         height: 94%;
     }
     .section-18 .inner-wrap .inner-row  {
-        margin: 8px 0 3px 60px;
+        margin: 8px 0 3px 50px;
     }
     .section-18 .inner-wrap .inner-row section {
         width: 100%;
@@ -2826,10 +2834,11 @@
 }
 .section-23 .inner-wrap .inner-box .inner-video {
     margin-bottom: 18px;
+    width: 100%;
 }
 .section-23 .inner-wrap .inner-box .inner-video video{
     width: 100%;
-    object-fit: 311 /260;
+    aspect-ratio: 311 /260;
     object-fit: cover;
     border-radius: 12px;
 }
@@ -2929,10 +2938,11 @@
     border-radius: 5px;
 }
 .section-24 .inner-wrap .inner-right {
-    padding: 37px 30px 32px;
+    padding: 37px 30px 10px;
 }
 .section-24 .inner-wrap .inner-right .inner-top .inner-box{
     display: flex;
+    flex-wrap: wrap;
     margin-bottom: 32px;
 }
 .section-24 .inner-wrap .inner-right .inner-top .inner-box .inner-icon{
@@ -2976,6 +2986,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
 }
 .section-24 .inner-wrap .inner-right .inner-bottom  .inner-bottom-box {
     margin-right: 20px;
@@ -2999,7 +3010,7 @@
 /* responsive */
 @media (max-width: 575.98px){
     .section-24 {
-        padding: 0px 0 22px;
+        padding: 0px 0 ;
     }
     .section-24 .box-header-3::before {
         width: 256px;
@@ -3029,6 +3040,7 @@
         height: 53px;
         font-size: 20px;
         margin-right: 20px;
+        margin-bottom: 10px;
     }
     .section-24 .inner-wrap .inner-right .inner-top .inner-box .inner-content .inner-title {
         font-size: 16px;
@@ -3040,7 +3052,7 @@
         line-height: 30px;
     }
     .section-24 .inner-wrap .inner-right .inner-top .inner-box {
-        margin-bottom: 22px;
+        margin-bottom: 12px;
     }
     .section-24 .inner-wrap .inner-right .inner-bottom {
         margin-top: 12px;
@@ -3053,6 +3065,7 @@
     .section-24 .inner-wrap .inner-right .inner-bottom .inner-bottom-box a {
         width: 53px;
         height: 63px;
+        margin-bottom: 22px;
     }
 }
 /* End responsive */
